@@ -51,9 +51,9 @@ class ViewController: UIViewController {
         let messages = ["You Are Awesome!",
                         "You Are Great!",
                         "You Are Fantastic!",
-                        "When the Genius Bar Needs Help, They Call You!",
+                        "When The Genius Bar Needs Help, They Call You!",
                         "Fabulous? That's You!",
-                        "You've Got The Design Skills of Jony Ive!"]
+                        "You're The Best Coder Ever!"]
         
         messageNumber = nonRepeatingRandom(originalNumber: messageNumber, upperLimit: messages.count-1)
         messageLabel.text = messages[messageNumber]
@@ -77,5 +77,3 @@ class ViewController: UIViewController {
     }
    
     
-
-
